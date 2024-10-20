@@ -4,7 +4,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# Define a class using Pydantic
 class Item(BaseModel):
     name: str
     price: float
